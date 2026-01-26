@@ -43,7 +43,7 @@ services:
         - ADMIN_PW=${GEOSERVER_ADMIN_PASSWORD}
     container_name: geoserver
     volumes:
-      - "D:/workspace/02_work/02_greenblue/02_iho/91_volume/data:/opt/geoserver_data"
+      - "/d/workspace/02_work/02_greenblue/02_iho/91_volume/data:/opt/geoserver_data"
     environment:
       - TZ=${TZ}
       - GEOSERVER_ADMIN_USER=${GEOSERVER_ADMIN_USER}
